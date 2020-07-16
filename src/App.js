@@ -1,15 +1,17 @@
 import React from 'react';
-import MainContainer from './Container/MainContainer';
+import MainContainer from './Container/Maincontainer';
 import Navbar from './Components/Navbar';
-import LoginContainer from './Container/Login/LoginContainer';
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Login from './Container/Login/LoginContainer';
 
 
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
-        <Switch>
+        <Switch> 
+            <Login />       
           <Route exact path="/" component={MainContainer}/>
         </Switch>
       </BrowserRouter>
