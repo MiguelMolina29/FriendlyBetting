@@ -1,0 +1,9 @@
+.log-container{
+    color: red;
+    font-size: 20px;   
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    
+}
