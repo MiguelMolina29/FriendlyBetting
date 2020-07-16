@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*Reset para REMS - 62.5% = 10 px de 16px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.6rem;
+}
+
+/** Gloabales **/
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5rem!important;
+}
+
+/** Main Container **/
+.main-container {
+    background-image: url('./assets/estadio.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-container nav {
+    padding-top: 4rem;
+}
+
+.main-container nav .site-title {
+    color: #ffffff;
+	font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-container .menu-links li {
+    margin-right: 2rem;
+}
+
+.main-container .menu-links li:last-of-type {
+    margin-right: 0rem;
+}
+
+.main-container nav .link {
+    color: #ffffff;
+	font-size: 1.8rem;
+    font-weight: 400;
+    margin-right: 2rem;
+}
+
+.main-container nav .link:last-of-type {
+    margin-right: 0;
+}
+
+.main-container nav .active-link {
+    text-decoration: underline;
+}
+
+.navigation {
+    background: transparent;
+}
+
+.texto-informativo {
+    margin-top: 7rem;
+}
+
+.texto-informativo h1 {
+    color: #ffffff;
+	font-weight: 300;
+}
+
+.texto-informativo span {
+    color: #ffffff;
+    font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.sigcontenedor {
+    height: 10rem;
+    background-color: red;
+}

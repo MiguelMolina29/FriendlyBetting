@@ -1,14 +1,20 @@
 import React from 'react';
-import './mainContainer.css'; 
 import axios from 'axios';
 import Navbar from '../Components/Navbar';
+import LandingInfo from '../Components/LandingInfo';
 
-const Maincontainer = () => {
+const MainContainer = () => {
     return (
         <div>
-            
+            <div className="main-container">
+                <Navbar/>
+                <LandingInfo/>
+            </div>
+            <div className="sigcontenedor">
+
+            </div>
         </div>
     )
 }
 
-export default Maincontainer
+export default MainContainer
