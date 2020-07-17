@@ -1,9 +1,11 @@
 import React from 'react';
 import MainContainer from './Container/Maincontainer';
-import Navbar from './Components/Navbar';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Login from './Container/Login/LoginContainer';
-
+import ApuestaContainer from './Container/ApuestaContainer';
+// import CreateApuesta from './Components/CreateApuesta';
+import CreateContainer from './Container/CreateContainer';
+// import Login from './Container/Login/LoginContainer';
+// import Navbar from './Components/Navbar';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       
       <BrowserRouter>
         <Switch> 
-            <Login />       
+            {/* <Login />        */}
           <Route exact path="/" component={MainContainer}/>
+          <Route exact path="/Apuesta" component={ApuestaContainer}/>
+          <Route exact path="/Create" component={CreateContainer}/>
         </Switch>
       </BrowserRouter>
     </div>

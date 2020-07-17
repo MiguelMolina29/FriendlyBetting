@@ -21,7 +21,10 @@ const Navbar = () => {
                     <NavLink className="nav-link link" activeClassName="active-link" to="/">En Directo</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link link" activeClassName="active-link" to="/">Iniciar Apuesta</NavLink>
+                    <NavLink className="nav-link link" activeClassName="active-link" to="/Create">Iniciar Apuesta</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link link" activeClassName="active-link" to="/Apuesta">Ver Apuestas</NavLink>
                 </li>
             </ul>
             </div>

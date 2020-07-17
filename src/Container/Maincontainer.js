@@ -1,7 +1,8 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import Navbar from '../Components/Navbar';
 import LandingInfo from '../Components/LandingInfo';
+
 
 const MainContainer = () => {
     return (
@@ -9,6 +10,7 @@ const MainContainer = () => {
             <div className="main-container">
                 <Navbar/>
                 <LandingInfo/>
+                
             </div>
             <div className="sigcontenedor">
 
