@@ -53,7 +53,7 @@ const CreateApuesta = (props) => {
               id="category"
             />
           </div>
-          <div className="form-group">
+          {/* <div className="form-group">
             <label htmlFor="monto">Monto </label>
             <input
               type="text"
@@ -61,7 +61,7 @@ const CreateApuesta = (props) => {
               className="form-control"
               id="monto"
             />
-          </div>
+          </div> */}
           
 
           <button onClick={() => submitForm()} className="btn btn-primary">
